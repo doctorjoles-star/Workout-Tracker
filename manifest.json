@@ -2,78 +2,67 @@
   "name": "ACFT Workout Tracker",
   "short_name": "Workout",
   "description": "Track your workouts with set-by-set logging, RPE scoring, and weekly auto-adjustments",
-  "start_url": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#f3f4f6",
   "theme_color": "#15803d",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icons/icon-72.png",
+      "src": "./icons/icon-72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-96.png",
+      "src": "./icons/icon-96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-128.png",
+      "src": "./icons/icon-128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-144.png",
+      "src": "./icons/icon-144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-152.png",
+      "src": "./icons/icon-152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-167.png",
+      "src": "./icons/icon-167.png",
       "sizes": "167x167",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-180.png",
+      "src": "./icons/icon-180.png",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-192.png",
+      "src": "./icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "./icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "categories": ["fitness", "health", "lifestyle"],
-  "shortcuts": [
-    {
-      "name": "Today's Workout",
-      "url": "/?view=workout",
-      "description": "Go to today's workout"
-    },
-    {
-      "name": "Progress",
-      "url": "/?view=progress",
-      "description": "View your progress and adjustments"
-    }
-  ]
+  "categories": ["fitness", "health", "lifestyle"]
 }
